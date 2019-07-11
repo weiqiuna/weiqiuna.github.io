@@ -72,6 +72,6 @@ h3 {
     right: 20px;
 }
 
-.QRText:hover + .QRImg {
+.QRText:hover+.QRImg {
     display: block;
 }
