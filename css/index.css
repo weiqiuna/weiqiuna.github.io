@@ -8,3 +8,47 @@ h3 {
     color: #fff;
     font-size: 20px;
 }
+
+.fish {
+    width: 174px;
+    height: 126px;
+    background: url(../images/fish.png) no-repeat;
+}
+
+.fish:nth-child(1) {
+    animation: swinmming 1s steps(11) infinite, gogogo 5s infinite;
+}
+
+.fish:nth-child(2) {
+    animation: swinmming 1s steps(11) infinite, gogogo 8s infinite;
+}
+
+.fish:nth-child(3) {
+    animation: swinmming 1s steps(11) infinite, gogogo 6.5s infinite;
+}
+
+.fish:nth-child(4) {
+    animation: swinmming 1s steps(11) infinite, gogogo 4s infinite;
+}
+
+@keyframes swinmming {
+    form {}
+
+    to {
+        background-position-y: -1386px;
+    }
+}
+
+@keyframes gogogo {
+    30% {
+        transform: translateX(1100px);
+    }
+
+    50% {
+        transform: translateX(1100px) rotateZ(180deg);
+    }
+
+    90% {
+        transform: translateX(0px) rotateZ(180deg);
+    }
+}
