@@ -1,0 +1,10 @@
+body {
+    background: url(../images/bg.jpg) no-repeat;
+}
+
+h3 {
+    margin: 300px auto;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
