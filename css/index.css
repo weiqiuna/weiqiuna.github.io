@@ -52,3 +52,26 @@ h3 {
         transform: translateX(0px) rotateZ(180deg);
     }
 }
+
+/* 二维码 */
+.QRText {
+    float: right;
+    margin: 10px;
+    color: red;
+    text-align: center;
+}
+
+.QRText span {
+    display: block;
+}
+
+.QRImg {
+    display: none;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+
+.QRText:hover + .QRImg {
+    display: block;
+}
